@@ -1,0 +1,67 @@
+@media (max-width: 820px) {
+  .input__field--quantity {
+    width: 74px;
+    padding-left: 5px;
+  }
+  .input__field--quantity::placeholder {
+    font-size: 10px;
+    padding: 2px;
+  }
+  .input__field--price {
+    width: 95px;
+    padding-left: 5px;
+  }
+  .input__field--price::placeholder {
+    font-size: 10px;
+    padding: 2px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  .input__field {
+    margin-right: 3px;
+  }
+  .product__title {
+    min-width: 150px;
+  }
+  .input__field--product {
+    max-width: 300px;
+  }
+  .product__item {
+    padding: 5px 5px;
+    min-width: 390px;
+  }
+  .product__item--box {
+    margin: 0;
+  }
+}
+
+@media (max-width: 680px) {
+  body {
+    padding: 3px;
+  }
+  .product__title {
+    min-width: 100px;
+  }
+
+  .input__field--quantity {
+    width: 70px;
+  }
+
+  .input__field--price {
+    width: 50px;
+  }
+
+  .caption {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .input__field--product {
+    max-width: 200px;
+  }
+}
