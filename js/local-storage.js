@@ -4,7 +4,7 @@ function getList(array) {
   if (list) {
     return list;
   } else {
-    alert("список пуст!");
+    return [];
   }
 }
 

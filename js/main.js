@@ -21,7 +21,7 @@ let quantityArray = [];
 let priceArrey = [];
 let totalPriceArrey = [];
 
-//проверяем хранилище на наличие информации
+// проверяем хранилище на наличие информации
 function checkLocalStorage() {
   productsArray = [...getList("product-list")]; // если в LocalStorage что-то хранится - добавляем это в массивы
   quantityArray = [...getList("quantity-list")];
