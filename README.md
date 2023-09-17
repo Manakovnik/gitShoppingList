@@ -10,3 +10,5 @@ web application
 5. Список сохраняется в local storage браузера;
 6. Стили приложения адаптивные (при меньшем размере экрана меняются не только размеры шрифта, отступы и размеры блоков, но и textContent у кнопок).
    
+![ScreenShot1](https://github.com/Manakovnik/gitShoppingList/blob/main/ScreenShot1.jpg)
+![ScreenShot2](https://github.com/Manakovnik/gitShoppingList/blob/main/ScreenShot2.jpg)
